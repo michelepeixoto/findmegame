@@ -1,0 +1,118 @@
+* {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: monospace;
+}
+
+/*FIX
+.textBubble {
+  background-image: url("images/TextBubble.png");
+  background-repeat: no-repeat;
+  background-size: cover;  
+}
+*/
+
+p {
+  font-size: 14px;
+}
+
+div {
+  margin: 50px 0 50px 0;
+}
+
+/* MENU */
+ul {
+  list-style: none;
+  position: fixed;
+  width: 100%;
+  margin: 0;
+  top: 0;
+  right: 0;
+  left: 0;
+  font-size: 16px;
+}
+#menuLinks li {
+  float: left;
+  padding: 5px 10px;
+  margin: 0 5%;
+  display: inline;
+}
+#menuLinks li a {
+  text-decoration: none;
+  padding: 5px 10px;
+}
+#menuBar ul {
+  border-bottom-style: solid;
+  border-bottom-color: white;
+}
+
+/* FOOTER */
+#footer {
+  margin-top: 200px;
+  clear: both;
+}
+
+/* HOME */
+#header {
+  margin-top: 50px;
+  width: 60%;
+}
+#screenshots {
+  width: 70%;
+  margin: 30px 0 30px 15%;
+}
+.screenshot {
+  width: 30%;
+  margin: 0 1%;
+}
+.announcement {
+  right: 0;
+  left: 0;
+  width: 100%;
+  border-top-style: solid;
+  border-bottom-style: solid;
+  margin: 0 0 20px 0;
+}
+.announcement h3 {
+  float: left;
+}
+
+/* ABOUT */
+#about {
+  width: 70%;
+  margin: 30px 0 30px 15%;
+}
+#makers {
+  margin-left: 18%;
+  margin-right: 18%;
+}
+#teamPic {
+  width: 100%;
+  margin-bottom: 50px;
+}
+.maker {
+  float: left;
+}
+.makerIcon {
+  border-radius: 1000px;
+  height: 150px;
+  margin: 0 30px;
+}
+
+
+/* WALKTRHOUGH */
+#howTo, #guide {
+  width: 70%;
+  margin: 30px 0 30px 15%;
+}
+.stepRevealed {
+  display: none;
+}
+.stepHidden:hover {
+  cursor: pointer;
+}
+.stepPic {
+  width: 70%;
+  margin: 0 1%;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Find Me - Home</title>
+    <link rel="stylesheet" href="website.css">
+    <script src="website.js"></script>
+  </head>
+  <body>
+    <div id="menuBar">
+      <ul id="menuLinks">
+        <li><a href="home.html">Home</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="index.html" target="_blank">Play</a></li>
+        <li><a href="walkthrough.html">Walkthrough</a></li>
+      </ul>
+    </div>
+    <img id="header" src="images/header.png" alt="Find Me">
+    <div id="howTo">
+      <h1>How to play</h1>
+      <p>Move with W A S D<br>
+        Press escape for a menu with clues<br>
+        To read the clues in the menu, click on the black icon to the left of "Unknown"<br>
+      You can interact with objects, some by pressing space and others by clicking on them</p>
+      <h1>Objective</h1>
+      <p>Solve the clues to unlock the doors and find the person who is texting you</p>
+    </div>
+    <div id="guide">
+      <h1>Guide</h1>
+      <p>Steps are hidden to prevent spoilers.</p>
+      <div class="step">
+        <h3>Step One</h3>
+        <p class="stepHidden" onclick="revealStep(1)">Click to reveal.</p>
+        <p class="stepRevealed"><img class="stepPic" src="images/Step1.png"><br>
+          If you open the menu, the first text tells you the first password. On the first lower floor, stand near the computer and press space. Click on the text box and type 'welcome' to unlock the gray door.</p>
+      </div>
+      <div class="step">
+        <h3>Step Two</h3>
+        <p class="stepHidden" onclick="revealStep(2)">Click to reveal.</p>
+        <p class="stepRevealed"><img class="stepPic" src="images/Step2.png"><br>
+          Go to the second floor where the offices are. Now that you unlocked the gray door, you can interact with the computer in that office also by pressing space when standing near it. It shows a picture that is a clue for the next password. Go back to the lobby and type in 'sunshine' into the text box to unlock the blue door.</p>
+      </div>
+      <div class="step">
+        <h3>Step Three</h3>
+        <p class="stepHidden" onclick="revealStep(3)">Click to reveal.</p>
+        <p class="stepRevealed"><img class="stepPic" src="images/Step3.png"><br>
+          If you click on the third text you will learn you need a USB to interact with the third computer. The USB is located in the bathroom on the first floor to the right of the door. Now that the green door is unlocked and you have the USB, you can interact with the third computer to see the next clue. Now type 'doge' into the lobby computer to unlock the green door.</p>
+      </div>
+      <div class="step">
+        <h3>Step Four</h3>
+        <p class="stepHidden" onclick="revealStep(4)">Click to reveal.</p>
+        <p class="stepRevealed"><img class="stepPic" src="images/Step4.png"><br>
+          With the last door unlocked, you can go through the maze on the second lower floor. To navigate the maze go:<br>
+        -down<br>
+        -right<br>
+        -down<br>
+        -right<br>
+        -down<br>
+        -right<br>
+        -up<br>
+        You should see a staircase leading down. Stand on it to go down.</p>
+      </div>
+      <div class="step">
+        <h3>Step Five</h3>
+        <p class="stepHidden" onclick="revealStep(5)">Click to reveal.</p>
+        <p class="stepRevealed"><img class="stepPic" src="images/Step5.png"><br>
+          Stand near the computer and press space. Congrats, you beat the game!</p>
+      </div>
+    </div>
+    <div id="footer">
+      <h3>Contact us at: findme_game@hotmail.com</h3>
+      <p>Website last updated on 01.31.2018</p>
+    </div>
+  </body>
+</html>
